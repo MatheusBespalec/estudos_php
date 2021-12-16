@@ -1,0 +1,28 @@
+{
+    "name": "matheusbespalec/tips02",
+    "description": "ABSTRAÇÃO DE BANCO DE DADOS COM DATA LAYER | PHP TIPS #002",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bespalec",
+            "email": "matheusbespalec@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    }
+
+}
