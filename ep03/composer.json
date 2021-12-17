@@ -1,0 +1,27 @@
+{
+    "name": "matheusbespalec/phpmailer",
+    "description": "ENVIANDO E-MAILS AUTENTICADOS EM SMTP COM PHPMAILER | PHP TIPS #003",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bespalec",
+            "email": "matheus.bespalec@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"    
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.5.*"
+    }
+}
