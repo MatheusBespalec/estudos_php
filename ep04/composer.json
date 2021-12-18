@@ -1,0 +1,27 @@
+{
+    "name": "matheusbespalec/phpt_ips04",
+    "description": "ROTAS, CALL BACKS E ESTRUTURA MVC COM ROUTER | PHP TIPS #004",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Bespalec",
+            "email": "matheusbespalec@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.*"
+    }
+}
