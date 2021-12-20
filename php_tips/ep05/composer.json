@@ -1,0 +1,29 @@
+{
+    "name": "matheusbespalec/phptips05",
+    "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP TIPS #005",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors":[
+        {
+            "name": "Matheus Bespalec",
+            "email": "matheus.bespalec@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "config":{
+        "vendor-dir": "vendor"
+    },
+    "autoload":{
+        "psr-4":{
+            "Source\\": "source/"
+        },
+        "files":[
+            "source/Config.php"
+        ]
+    },
+    "require":{
+        "fzaninotto/faker": "*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/paginator": "1.0.*"
+    }
+}
