@@ -1,0 +1,24 @@
+{
+  "name": "matheusbespalec/tips18",
+  "discription": "GESTÃO DE SENHAS COM A API NATIVA DO PHP | PHP TIPS #018",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus Bespalec",
+      "email": "matheusbespalec@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.*"
+  }
+}

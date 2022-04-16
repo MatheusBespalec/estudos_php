@@ -1,0 +1,222 @@
+/*Default*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+section{
+	padding: 50px 0;
+}
+
+h2{
+	font-size: 35px;
+}
+
+.alert{
+	margin: 20px auto;
+	text-align: center;
+	padding: 20px 0;
+	max-width: 700px;
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+.sucesso{
+	background-color: #53ed7f;
+	color: #00cc3a;
+	border: 2px solid #00cc3a;
+}
+
+.erro{
+	background-color: #ed6464;
+	color: #c20c0c;
+	border: 2px solid #c20c0c;
+}
+
+/*Header*/
+
+header{
+	background: #42a5f5;
+	color: #fff;
+}
+
+header > .container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+header li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 10px;
+	transition: 0.5s;
+}
+
+header li:hover{
+	background-color: #2196f3;
+}
+
+header a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+header .logomarca{
+	line-height: 61px;
+}
+
+/*Banner*/
+
+section.banner{
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+section.banner{
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+}
+
+section.banner > .container{
+	max-width: 700px;
+}
+
+section.banner p{
+	margin: 15px 0;
+	line-height: 20px;
+}
+
+section.banner a{
+	position: relative;
+	top: 15px;
+	padding: 10px 40px;
+	background-color: #64b5f6;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+section.banner a:hover{
+	background-color: #42a5f5;
+}
+
+/*Equipe*/
+
+section.equipe{
+	text-align: center;
+	color: #444;
+}
+
+section.equipe > .container{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+section.equipe .box{
+	width: 300px;
+	border:  1px solid #ccc;
+	padding: 20px 10px;
+	margin: 20px;
+}
+
+section.equipe .box .img{
+	width: 50px;
+	height: 50px;
+	background-color: #ccc;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+/*Empresa*/
+
+section.empresa{
+	text-align: center;
+}
+
+section.empresa .empresa-img img{
+	width: 100%;
+	max-width: 700px;
+}
+
+section.empresa .empresa-text p{
+	text-align: justify;
+	margin-top: 25px;
+}
+
+/*Contato*/
+	
+section.contato h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section.contato form{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+section.contato form .form-group{
+	margin: 10px 0;
+}
+
+section.contato form label{
+	font-size: 18px;
+}
+
+section.contato form input,
+section.contato form textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+
+section.contato form textarea{
+	height: 150px;
+	resize: vertical;
+}
+
+section.contato form input:focus,
+section.contato form textarea:focus{
+	outline: 0;
+}
+
+section.contato form input[type=submit]{
+	background-color: #42a5f5;
+	cursor: pointer;
+	border: 0;
+	color: #fff;
+}
+
+section.contato form input[type=submit]:hover{
+	background-color: #2196f3;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #121212;
+	padding: 50px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
